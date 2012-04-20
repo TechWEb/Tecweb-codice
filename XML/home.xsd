@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="" elementFormDefault="qualified">
+
+	<xsd:element name="home">
+		<xsd:complexType>
+			<xsd:sequence>
+
+				<xsd:element name="images">
+					<xsd:complexType>
+						<xsd:sequence minOccurs="0" maxOccurs="unbounded">
+				
+							<xsd:element name="img">
+								<xsd:complexType>
+									<xsd:simpleContent>
+										<xsd:extension base="xsd:anyURI">
+											<xsd:attribute name="alt" type="xsd:string"/>
+										</xsd:extension>
+									</xsd:simpleContent>
+								</xsd:complexType>
+							</xsd:element>
+			
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+		
+
+			
+				<xsd:element name="description" type="xsd:string"/>
+			
+				<xsd:element name="links">
+					<xsd:complexType>
+						<xsd:sequence minOccurs="0" maxOccurs="unbounded">
+					
+							<xsd:element name="link">
+								<xsd:complexType>
+									<xsd:simpleContent>
+										<xsd:extension base="xsd:anyURI">
+											<xsd:attribute name="title" type="xsd:string"/>
+										</xsd:extension>
+									</xsd:simpleContent>
+								</xsd:complexType>
+							</xsd:element>
+					
+						</xsd:sequence>				
+					</xsd:complexType>
+				</xsd:element>
+							
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+</xsd:schema>

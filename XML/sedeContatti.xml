@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<locationContacts xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:schemaLocation="C:\Users\User\Documents\Unipd\Tecnologie Web\Progetto\XML\news.xsd">
+	
+	<location>
+		
+		<address></address>
+		<map></map>
+	
+	</location>
+	
+	<contacts>
+	
+		<email></email>
+		<phone></phone>
+		<fax></fax>
+	
+	</contacts>
+	
+</locationContacts>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="" elementFormDefault="qualified">
+
+	<xsd:element name="news">
+		<xsd:complexType>
+			<xsd:sequence minOccurs="0" maxOccurs="unbounded">
+			
+				<xsd:element name="article">
+					<xsd:complexType>
+						<xsd:sequence>			
+			
+							<xsd:element name="date" type="xsd:date"/>
+							
+							<xsd:element name="title" type="xsd:string"/>
+				
+							<xsd:element name="link" type="xsd:string"/>
+				
+							<xsd:element name="text" type="xsd:string"/>
+				
+							<xsd:element name="images">
+								<xsd:complexType>
+									<xsd:sequence minOccurs="0" maxOccurs="unbounded">
+							
+										<xsd:element name="img">
+											<xsd:complexType>
+												<xsd:simpleContent>
+													<xsd:extension base="xsd:anyURI">
+														<xsd:attribute name="alt" type="xsd:string"/>
+													</xsd:extension>
+												</xsd:simpleContent>
+												</xsd:complexType>
+										</xsd:element>
+						
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+				
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+</xsd:schema>

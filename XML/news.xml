@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<news xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:schemaLocation="C:\Users\User\Documents\Unipd\Tecnologie Web\Progetto\XML\news.xsd">
+	
+	<article>
+		
+		<date>2012-02-03</date>
+		<title></title>
+		<link></link>
+		<text></text>
+		<images>
+			<img alt=""></img>
+			<img alt=""></img>
+		</images>
+	
+	</article>
+	
+</news>

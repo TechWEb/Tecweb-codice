@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="" elementFormDefault="qualified">
+
+	<xsd:element name="office">
+		<xsd:complexType>
+			<xsd:sequence>
+			
+				<xsd:element name="story" type="xsd:string"/>
+				
+				<xsd:element name="composition">
+					<xsd:complexType>
+						<xsd:sequence minOccurs="0" maxOccurs="unbounded">
+							
+							<xsd:element name="employee">
+								<xsd:complexType>
+										<xsd:sequence>
+											
+											<xsd:element name="name" type="xsd:string"/>
+														
+											<xsd:element name="pubblications">
+												<xsd:complexType>
+													<xsd:sequence minOccurs="0" maxOccurs="unbounded">	
+														<xsd:element name="pubblication">
+															<xsd:complexType>
+																<xsd:simpleContent>
+																	<xsd:extension base="xsd:string">
+																		<xsd:attribute name="n" type="xsd:positiveInteger"/>
+																		<xsd:attribute name="date" type="xsd:date"/>
+																	</xsd:extension>
+																</xsd:simpleContent>
+															</xsd:complexType>
+														</xsd:element>
+													</xsd:sequence>								
+												</xsd:complexType>
+											</xsd:element>
+											
+										<xsd:element name="contacts">
+												<xsd:complexType>
+													<xsd:sequence>	
+														<xsd:element name="email" type="xsd:string"/>
+														<xsd:element name="linkedin" type="xsd:string"/>
+													</xsd:sequence>								
+												</xsd:complexType>
+											</xsd:element>
+											
+											<xsd:element name="curriculum" type="xsd:string"/>
+											
+										</xsd:sequence>								
+										
+										<xsd:attribute name="title" type="xsd:string"/>
+										
+								</xsd:complexType>
+							</xsd:element>
+						
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				
+
+				<xsd:element name="competenceAreas">
+					<xsd:complexType>
+						<xsd:sequence minOccurs="0" maxOccurs="unbounded">
+							
+							<xsd:element name="area">
+								<xsd:complexType>
+									<xsd:simpleContent>
+										<xsd:extension base="xsd:string">
+											<xsd:attribute name="name" type="xsd:string"/>
+										</xsd:extension>
+									</xsd:simpleContent>
+								</xsd:complexType>
+							</xsd:element>
+						
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>				
+				
+				
+				
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+</xsd:schema>

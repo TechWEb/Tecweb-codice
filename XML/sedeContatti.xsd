@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="" elementFormDefault="qualified">
+
+	<xsd:element name="locationContacts">
+		<xsd:complexType>
+			<xsd:sequence>
+			
+			<xsd:element name="location">
+				<xsd:complexType>
+					<xsd:sequence>	
+				
+						<xsd:element name="address" type="xsd:string"/>
+					
+						<xsd:element name="map">
+							<xsd:complexType>
+								<xsd:simpleContent>
+									<xsd:extension base="xsd:anyURI">
+										<xsd:attribute name="alt" type="xsd:string"/>
+									</xsd:extension>
+								</xsd:simpleContent>
+							</xsd:complexType>
+						</xsd:element>
+				
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			
+			<xsd:element name="contacts">
+				<xsd:complexType>
+					<xsd:sequence>
+			
+						<xsd:element name="email" type="xsd:string"/>
+						<xsd:element name="phone" type="xsd:string"/>
+						<xsd:element name="fax" type="xsd:string"/>
+					
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+							
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+</xsd:schema>

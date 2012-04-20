@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<home xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:schemaLocation="C:\Users\User\Documents\Unipd\Tecnologie Web\Progetto\XML\home.xsd">
+
+	<images>
+		<img alt=" "></img>
+		<img alt=" "></img>
+		<img alt=" "></img>
+	</images>
+	
+	<description></description>
+	
+	<links>
+		<link title=" "></link>
+		<link title=""></link>
+	</links>
+
+</home>
