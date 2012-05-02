@@ -37,6 +37,8 @@
 									<xsd:simpleContent>
 										<xsd:extension base="xsd:anyURI">
 											<xsd:attribute name="title" type="xsd:string"/>
+											<xsd:attribute name="tabindex" type="xsd:string"/>
+											<xsd:attribute name="accesskey" type="xsd:string"/>
 										</xsd:extension>
 									</xsd:simpleContent>
 								</xsd:complexType>
