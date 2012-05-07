@@ -1,7 +1,7 @@
 html, body{ margin: 0px; padding: 0px;
     font-family: Verdana, Helvetica, sans-serif;
     font-size:1em;
-    background-color:#ff8b2d;
+    background-color:#ffffff
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -82,11 +82,17 @@ a:visited{
     margin:0px;
     padding:0.1em 1.5em 0.5em;
     margin-left:17%;
+    margin-bottom: 15%;
+}
+
+.img{
+	 	-webkit-border-radius: 25px;
+		border-radius: 25px;	
 }
 
 #img1{
     float: left;
-     padding:0.1em 0.1em 0.1em;
+    padding:0.1em 0.1em 0.1em;
 }
 
 #img2{
@@ -95,12 +101,13 @@ a:visited{
 
 #img3{
 	 padding:0.1em 0.1em 0.1em;
-	 float: right;
+	 float: left;
  	 width:40%;
 }
 
 #links{
-	 float: inherit;
+	display: block;
+	
 }
 
 #piede{

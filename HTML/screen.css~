@@ -1,0 +1,52 @@
+html,body{
+	margin: 0.1%;	
+	padding: 0.1%;
+	font-family: Georgia, Century Gothic, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	background-color:#ffffff;
+	}
+	
+h1{
+	font-variant: small-caps;
+	font-size: 2.5em;
+	}
+	
+a:link{
+	color:#090847;
+	}
+	
+a:visited{
+	color:#A0A;	
+	}
+	
+#header{
+	margin: 1% 1%;
+	padding: 0.1% 2%;
+	border-radius:15px;
+	background: #718DD8;
+	}
+	
+#nav{
+	width: 12%;
+	float: left;
+	margin: 0.1% 1%;
+	padding: 2%;
+	border-radius:15px;
+	background: #B8C9D5;	
+	}
+	
+#nav ul{
+	list-style-type: none;
+	font-variant: small-caps;	
+	}
+	
+#nav li{
+	padding: 0.4em;	
+	}
+	
+#corpo{
+	width: 80%;
+	background-color: yellow;	
+	float: right;
+	
+	}
