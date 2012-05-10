@@ -9,6 +9,8 @@ html,body{
 h1{
 	font-variant: small-caps;
 	font-size: 2.5em;
+	font-style: italic;
+	font-weight: bold;
 	}
 	
 dt{
@@ -31,13 +33,11 @@ a:visited{
 	
 #header{
 	margin: 0.5% 0.5%;
-	padding: 0.1% 2% 2% 2%;
+	padding: 1px 20px;
+	/*padding: 0.1% 0.1% 2% 2%;*/
 	border-radius:15px;
 	background:#47216B url(../Foto/header.png) repeat-x left top;
 	color: #ffffff;
-	font-style: italic;
-	font-weight: bold;
-	font-size: 20px;
 	text-shadow: 10px 10px 3px #25063F;
 	}
 	
@@ -126,12 +126,23 @@ a:visited{
 
 .link{
 	float: left;
+	margin-right: 80%;
 	padding: 1%;	
 }
 
 #contatti ul{
 	list-style-type: none;
 	background-position: 0px 10px; 
+}
+
+#piede{
+		clear:both;
+	background:#000000 url(../Foto/path.png) repeat-x left top;
+	color: #ffffff;
+	font-size: 0.7em;
+	margin: 0.1% 0.5%;
+	padding: 0.1% 2%;
+	border-radius:15px;
 }
 
 	
