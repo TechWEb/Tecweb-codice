@@ -25,19 +25,14 @@
 	</div>
 	
 	<div id="path">
-		<p>Da inserire il path con javascript e barra di cerca</p>	
+	
 	</div>
-	  
+	
 	<div id="nav">
 		<ul>
 			<li><a href="home.html" tabindex="" accesskey="1">Home</a></li>
-			<li>Studio
-				<ul>
-					<li><a href="studioStoria.html" tabindex="" accesskey="3">Storia</a></li>	
-					<li><a href="studioAvvocati.html" tabindex="" accesskey="4">Composizione Studio</a></li>			
-				</ul>			
-			</li>	
-			<li><a href="news.html" tabindex="" accesskey="3">News</a></li>	
+			<li><a href="studio.html" tabindex="" accesskey="2">Studio</a></li>	
+			<li>News</li>	
 			<li><a href="sedeContatti.html" tabindex="" accesskey="4">Sede e Contatti</a></li>	
 			<li><a href="amministrazione.html" tabindex="" accesskey="5">Amministrazione</a></li>			
 		</ul>
@@ -47,13 +42,17 @@
 	
 	<div id="corpo">
 	
-		<div id="testo">
-			
-			<a href="studioStoria.html" tabindex="" accesskey=" " class="links">Storia</a>
-			<a href="studioAvvocati.html" tabindex="" accesskey=" " class="links">Composizione Studio</a>
-	
+		<div id="testo"> 
+					
+			<p>Data 12/01/2011</p>
+			<a href="" tabindex="" accesskey="a1"><em>Titolo: "Normativa Norm"</em></a>
+			<p>Blalal al sdldgfnal sgaòlfskg aòogh aòskgaò gòakjfsnhgaò klfsdgòalskjgfaò ldfgòa fkhgqòoiw
+			gaòldfkgaòkldfgaòiorgaknfdva aàskg afklgaklsgjaòfkga òalkdfjg aòkljdsfgkla fgakjl fòklgaòsldk 
+			alskaòlkgj aòlkdfsjga klfsg akjfkj askj aòlskjg aòksfjg aòklsjg aijsg alkjsgijo akg asifgk a </p>				
+			<img src="../Foto/images.jpg" alt=" " class="img" id="img1"/>
+		
 		</div>
-	
+
 	</div>	
 	
 	<div id="piede"></div>

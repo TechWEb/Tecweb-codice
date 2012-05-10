@@ -25,9 +25,9 @@
 	</div>
 	
 	<div id="path">
-		<p>Da inserire il path con javascript e barra di cerca</p>	
+	
 	</div>
-	  
+	  <p>Da inserire il path con javascript e barra di cerca</p>	
 	<div id="nav">
 		<ul>
 			<li><a href="home.html" tabindex="" accesskey="1">Home</a></li>

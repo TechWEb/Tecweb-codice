@@ -25,20 +25,15 @@
 	</div>
 	
 	<div id="path">
-		<p>Da inserire il path con javascript e barra di cerca</p>	
+	
 	</div>
-	  
+	
 	<div id="nav">
 		<ul>
 			<li><a href="home.html" tabindex="" accesskey="1">Home</a></li>
-			<li>Studio
-				<ul>
-					<li><a href="studioStoria.html" tabindex="" accesskey="3">Storia</a></li>	
-					<li><a href="studioAvvocati.html" tabindex="" accesskey="4">Composizione Studio</a></li>			
-				</ul>			
-			</li>	
+			<li><a href="studio.html" tabindex="" accesskey="2">Studio</a></li>	
 			<li><a href="news.html" tabindex="" accesskey="3">News</a></li>	
-			<li><a href="sedeContatti.html" tabindex="" accesskey="4">Sede e Contatti</a></li>	
+			<li>Sede e Contatti</li>	
 			<li><a href="amministrazione.html" tabindex="" accesskey="5">Amministrazione</a></li>			
 		</ul>
 	
@@ -47,12 +42,6 @@
 	
 	<div id="corpo">
 	
-		<div id="testo">
-			
-			<a href="studioStoria.html" tabindex="" accesskey=" " class="links">Storia</a>
-			<a href="studioAvvocati.html" tabindex="" accesskey=" " class="links">Composizione Studio</a>
-	
-		</div>
 	
 	</div>	
 	
