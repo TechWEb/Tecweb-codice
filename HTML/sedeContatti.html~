@@ -10,7 +10,7 @@
  	<meta name="keywords" content="Studio Legale, avvocato, legali Padova" />
  	<meta name="author" content="User" />
  	<meta name="language" content="italian it" /> 
- 	<link href="home.css" rel="stylesheet" type="text/css" media="screen"/>  
+ 	<link href="screen.css" rel="stylesheet" type="text/css" media="screen"/>  
 </head>
 
 <body>
@@ -25,16 +25,16 @@
 	</div>
 	
 	<div id="path">
-	
+	  <p>Da inserire il path con javascript e barra di cerca</p>
 	</div>
 	
 	<div id="nav">
 		<ul>
-			<li><a href="home.html" tabindex="" accesskey="">Home</a></li>
-			<li><a href="studio.html" tabindex="" accesskey="">Studio</a></li>	
-			<li><a href="news.html" tabindex="" accesskey="">News</a></li>	
+			<li><a href="home.html" tabindex="" accesskey="1">Home</a></li>
+			<li><a href="studio.html" tabindex="" accesskey="2">Studio</a></li>	
+			<li><a href="news.html" tabindex="" accesskey="3">News</a></li>	
 			<li>Sede e Contatti</li>	
-			<li><a href="amministrazione.html" tabindex="" accesskey="">Amministrazione</a></li>			
+			<li><a href="amministrazione.html" tabindex="" accesskey="5">Amministrazione</a></li>			
 		</ul>
 	
 	</div>

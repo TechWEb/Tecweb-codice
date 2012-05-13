@@ -1,0 +1,148 @@
+html,body{
+	margin: 0.1%;	
+	padding: 0.1%;
+	font-family: Georgia, "Century Gothic", Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	background-color:#ffffff;
+	}
+	
+h1{
+	font-variant: small-caps;
+	font-size: 2.5em;
+	font-style: italic;
+	font-weight: bold;
+	}
+	
+dt{
+	font-weight: bolder;	
+	padding: 1%;
+}
+
+em{
+	font-style: normal;
+	font-weight: bold;	
+}
+	
+a:link{
+	color:#090847;
+	}
+	
+a:visited{
+	color:#A0A;	
+	}
+	
+#header{
+	margin: 0.5% 0.5%;
+	padding: 1px 20px;
+	/*padding: 0.1% 0.1% 2% 2%;*/
+	border-radius:15px;
+	background:#47216B url(../Foto/header.png) repeat-x left top;
+	color: #ffffff;
+	text-shadow: 10px 10px 3px #25063F;
+	}
+	
+#path{
+	background:#000000 url(../Foto/path.png) repeat-x left top;
+	color: #ffffff;
+	font-size: 0.7em;
+	margin: 0.1% 0.5%;
+	padding: 0.1% 2%;
+	border-radius:15px;
+}
+	
+#logo{ 
+  display:block;
+  width:10%;
+  height:5em;
+  float:left;
+  background-image: url(../Foto/logo.png);
+  background-repeat: no-repeat;
+  margin:1em;
+  margin-left:2em;
+  padding: 0.1% 2% 2% 10%;
+}
+
+.indirizzo{
+    display:block;
+}
+	
+#nav{
+	width: 20%;
+	float: left;
+	margin: 0.1% 0.5%;
+	padding: 0.5%;
+	border-radius:15px;
+	background:#C2C0F5 url(../Foto/nav.png) repeat-y left top;	
+}
+	
+#nav ul{
+	list-style-type: none;
+	font-variant: small-caps;	
+}
+	
+#nav li{
+	padding: 0.4em;	
+}
+	
+#corpo{
+	width: 74%;
+	float: right;
+	margin: 0.1% 0.5%;
+	border-radius:15px;
+	background:#DDDCF4;	
+}
+	
+#immagini{
+	margin: 1%;	
+}
+	
+.img{
+	border-radius: 15px;	
+	width: 25%;
+	height: 25%;
+	float: left;
+	margin: 0.1%;
+	padding: 0.1%;
+	box-shadow: 15px 8px 30px 1px rgba(100, 100, 100, 0.5);  
+}
+
+#testo{	
+	float: left;
+	width: 80%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+#links{
+	float: left;
+	width: 80%;
+	margin-top: 1.5%;
+	margin-bottom: 1%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.link{
+	float: left;
+	margin-right: 80%;
+	padding: 1%;	
+}
+
+#contatti ul{
+	list-style-type: none;
+	background-position: 0px 10px; 
+}
+
+#piede{
+		clear:both;
+	background:#000000 url(../Foto/path.png) repeat-x left top;
+	color: #ffffff;
+	font-size: 0.7em;
+	margin: 0.1% 0.5%;
+	padding: 0.1% 2%;
+	border-radius:15px;
+}
+
+	

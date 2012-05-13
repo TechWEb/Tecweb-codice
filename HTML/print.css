@@ -1,0 +1,51 @@
+html,body{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+}
+	
+a:link:after, a:visited:after{
+	content: " ["attr(href)"] ";
+	font-size: 90%;
+}
+
+a[href^="/"]:after {
+content: "(http://www sito it" attr(href) ") "; content: (http://www.sito.it attr(href) ) ;
+}
+
+#header{
+	padding: 0.1em 1.5em 0.5em;
+}
+	
+#path{
+	padding: 1em 1.5em;
+}
+	
+#logo{ 
+	display: none;
+}
+
+.indirizzo{
+  display:block;
+}
+	
+#nav{
+	display: none;
+}
+	
+#corpo{
+	padding: 0.1em 1.5em 0.5em;
+}
+
+.link{
+	float: left;
+	margin-right: 50%;
+}	
+
+#piede{
+	display: none;
+}
+
+.img{
+	width: 10%;
+	height: 10%;	
+}	
