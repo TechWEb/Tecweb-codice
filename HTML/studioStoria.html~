@@ -31,7 +31,7 @@
 	<div id="nav">
 		<ul>
 			<li><a href="home.html" tabindex="" accesskey="1">Home</a></li>
-			<li><a href="home.html" tabindex="" accesskey="2">Studio</a>
+			<li><a href="studio.html" tabindex="" accesskey="2">Studio</a>
 				<ul>
 					<li>Storia</li>	
 					<li><a href="studioAvvocati.html" tabindex="" accesskey="7">Composizione Studio</a></li>			

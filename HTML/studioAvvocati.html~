@@ -50,10 +50,10 @@
 			<dl id="avvocati">
 			
 				<dt id="nome">Antonio Rossi</dt>	
-					<dd id="pubblicazioni">Pubblicazioni
+					<dd id="pubblicazioni"><em>Pubblicazioni</em>
 					
 					</dd>
-					<dd id="contatti">Contatti 
+					<dd id="contatti"><em>Contatti</em> 
 						<ul>
 							<li>antonio.rossi@gmail.com</li>
 							<li>Contatto LinkedIn</li>						
@@ -62,10 +62,10 @@
 					<dd id="curriculum"></dd>
 					
 				<dt id="nome">Sandro Verdi</dt>	
-					<dd id="pubblicazioni">Pubblicazioni
+					<dd id="pubblicazioni"><em>Pubblicazioni</em>
 					
 					</dd>
-					<dd id="contatti">Contatti
+					<dd id="contatti"><em>Contatti</em>
 						<ul>
 							<li>sandro.verdi@gmail.com</li>
 							<li>Contatto LinkedIn</li>						
@@ -74,10 +74,10 @@
 					<dd id="curriculum"></dd>
 		
 				<dt id="nome">Giovanni Bianchi</dt>	
-					<dd id="pubblicazioni">Pubblicazioni
+					<dd id="pubblicazioni"><em>Pubblicazioni</em>
 					
 					</dd>
-					<dd id="contatti">Contatti
+					<dd id="contatti"><em>Contatti</em>
 						<ul>
 							<li>giovanni.bianchi@gmail.com</li>
 							<li>Contatto LinkedIn</li>						
