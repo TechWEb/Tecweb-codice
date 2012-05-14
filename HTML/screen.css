@@ -106,6 +106,13 @@ a:visited{
 	box-shadow: 15px 8px 30px 1px rgba(100, 100, 100, 0.5);  
 }
 
+#map{
+	width: 600px;
+	height: 500px;	
+	margin-bottom: 1%;
+	margin-right: 70%;
+}
+
 #testo{	
 	float: left;
 	width: 80%;
@@ -113,6 +120,11 @@ a:visited{
 	margin-bottom: 1%;
 	padding-left: 3%;
 	padding-right: 3%;
+}
+
+.articolo{
+	padding: 1%;
+	clear: both;	
 }
 
 #links{

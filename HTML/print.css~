@@ -4,7 +4,7 @@ html,body{
 }
 	
 a:link:after, a:visited:after{
-	content: "["attr(href)"]";
+	content: " ["attr(href)"] ";
 	font-size: 90%;
 }
 
@@ -49,3 +49,8 @@ content: "(http://www sito it" attr(href) ") "; content: (http://www.sito.it att
 	width: 10%;
 	height: 10%;	
 }	
+
+#map{
+	width: 700px;
+	height: 550px;	
+}

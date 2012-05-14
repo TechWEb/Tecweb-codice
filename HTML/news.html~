@@ -11,6 +11,7 @@
  	<meta name="author" content="User" />
  	<meta name="language" content="italian it" /> 
  	<link href="screen.css" rel="stylesheet" type="text/css" media="screen"/>  
+ 	<link href="print.css" rel="stylesheet" type="text/css" media="print"/>   
 </head>
 
 <body>
@@ -43,19 +44,41 @@
 	<div id="corpo">
 	
 		<div id="testo"> 
-					
-			<p>Data 12/01/2011</p>
-			<a href="" tabindex="" accesskey="a1"><em>Titolo: "Normativa Norm"</em></a>
-			<p>Blalal al sdldgfnal sgaòlfskg aòogh aòskgaò gòakjfsnhgaò klfsdgòalskjgfaò ldfgòa fkhgqòoiw
-			gaòldfkgaòkldfgaòiorgaknfdva aàskg afklgaklsgjaòfkga òalkdfjg aòkljdsfgkla fgakjl fòklgaòsldk 
-			alskaòlkgj aòlkdfsjga klfsg akjfkj askj aòlskjg aòksfjg aòklsjg aijsg alkjsgijo akg asifgk a </p>				
-			<img src="../Foto/images.jpg" alt=" " class="img" id="img1"/>
+			
+			<div class="articolo">		
+				<p>Data 12/01/2011</p>
+				<a href="" tabindex="" accesskey="a1"><em>Titolo: "Normativa Norm"</em></a>
+				<p>Blalal al sdldgfnal sgaòlfskg aòogh aòskgaò gòakjfsnhgaò klfsdgòalskjgfaò ldfgòa fkhgqòoiw
+				gaòldfkgaòkldfgaòiorgaknfdva aàskg afklgaklsgjaòfkga òalkdfjg aòkljdsfgkla fgakjl fòklgaòsldk 
+				alskaòlkgj aòlkdfsjga klfsg akjfkj askj aòlskjg aòksfjg aòklsjg aijsg alkjsgijo akg asifgk a </p>				
+				<img src="../Foto/images.jpg" alt=" " class="img" id="img1"/>
+			</div>
+			
+			<div class="articolo">		
+				<p>Data 12/01/2011</p>
+				<a href="" tabindex="" accesskey="a1"><em>Titolo: "Normativa Norm"</em></a>
+				<p>Blalal al sdldgfnal sgaòlfskg aòogh aòskgaò gòakjfsnhgaò klfsdgòalskjgfaò ldfgòa fkhgqòoiw
+				gaòldfkgaòkldfgaòiorgaknfdva aàskg afklgaklsgjaòfkga òalkdfjg aòkljdsfgkla fgakjl fòklgaòsldk 
+				alskaòlkgj aòlkdfsjga klfsg akjfkj askj aòlskjg aòksfjg aòklsjg aijsg alkjsgijo akg asifgk a </p>				
+				<img src="../Foto/images.jpg" alt=" " class="img" id="img1"/>
+			</div>
+
+			<div class="articolo">		
+				<p>Data 12/01/2011</p>
+				<a href="" tabindex="" accesskey="a1"><em>Titolo: "Normativa Norm"</em></a>
+				<p>Blalal al sdldgfnal sgaòlfskg aòogh aòskgaò gòakjfsnhgaò klfsdgòalskjgfaò ldfgòa fkhgqòoiw
+				gaòldfkgaòkldfgaòiorgaknfdva aàskg afklgaklsgjaòfkga òalkdfjg aòkljdsfgkla fgakjl fòklgaòsldk 
+				alskaòlkgj aòlkdfsjga klfsg akjfkj askj aòlskjg aòksfjg aòklsjg aijsg alkjsgijo akg asifgk a </p>				
+				<img src="../Foto/images.jpg" alt=" " class="img" id="img1"/>
+			</div>
 		
 		</div>
 
 	</div>	
 	
-	<div id="piede"></div>
+	<div id="piede">
+		<p>Qui si possono inserire i loghi del validator del W3C</p>
+	</div>
 
 
 </body>

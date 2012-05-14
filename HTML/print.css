@@ -8,10 +8,6 @@ a:link:after, a:visited:after{
 	font-size: 90%;
 }
 
-a[href^="/"]:after {
-content: "(http://www sito it" attr(href) ") "; content: (http://www.sito.it attr(href) ) ;
-}
-
 #header{
 	padding: 0.1em 1.5em 0.5em;
 }
@@ -49,3 +45,8 @@ content: "(http://www sito it" attr(href) ") "; content: (http://www.sito.it att
 	width: 10%;
 	height: 10%;	
 }	
+
+#map{
+	width: 700px;
+	height: 550px;	
+}

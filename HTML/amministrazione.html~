@@ -11,7 +11,7 @@
  	<meta name="author" content="User" />
  	<meta name="language" content="italian it" /> 
  	<link href="screen.css" rel="stylesheet" type="text/css" media="screen"/> 
- 	 	<link href="print.css" rel="stylesheet" type="text/css" media="print"/>   
+ 	<link href="print.css" rel="stylesheet" type="text/css" media="print"/>   
 </head>
 
 <body>
