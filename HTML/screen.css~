@@ -107,8 +107,8 @@ a:visited{
 }
 
 #map{
-	width: 500px;
-	height: 600px;	
+	width: 600px;
+	height: 500px;	
 	margin-bottom: 1%;
 	margin-right: 70%;
 }

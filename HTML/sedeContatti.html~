@@ -53,13 +53,12 @@
 		
 		<img src="../Foto/maps.jpg" alt=" " class="img" id="map"/>
 	
-		<p id="contatti"><em>Contatti</em>
-			<ul>
-				<li>studio.prova@gmail.com</li>
-				<li>Numero Telefonico 049-256482</li>
-				<li>Numero Fax 049-256483</li>						
-			</ul>					
-		</p>
+		<em id="contatti">Contatti</em>
+		<ul>
+			<li>studio.prova@gmail.com</li>
+			<li>Numero Telefonico 049-256482</li>
+			<li>Numero Fax 049-256483</li>						
+		</ul>					
 	
 	</div>
 	
